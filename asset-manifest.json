@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/learn.ai/static/css/main.03a8007b.css",
+    "main.js": "/learn.ai/static/js/main.6e41975c.js",
+    "static/media/ais.jpg": "/learn.ai/static/media/ais.0913dfca4de366892a31.jpg",
+    "static/media/ai2.jpg": "/learn.ai/static/media/ai2.34ed90a2a2530d08fc36.jpg",
+    "static/media/openapi.png": "/learn.ai/static/media/openapi.03b8e094125cee06e8d9.png",
+    "static/media/farce.png": "/learn.ai/static/media/farce.6fac68006873567fb350.png",
+    "static/media/crayon.svg": "/learn.ai/static/media/crayon.e84f17406dac94d42eaf9a3f13c768b6.svg",
+    "static/media/deepimage.svg": "/learn.ai/static/media/deepimage.1192df3f8be5344a5d2705ac513cdf37.svg",
+    "static/media/namify.svg": "/learn.ai/static/media/namify.c8b1c0aa6f9cf5959c4017b005e6f737.svg",
+    "static/media/editor.svg": "/learn.ai/static/media/editor.34cf5c8b470baac3bedb86761034dd5c.svg",
+    "static/media/brandcrowd.svg": "/learn.ai/static/media/brandcrowd.478d778d9b316243615f1b986cfee4cd.svg",
+    "static/media/logomaker.webp": "/learn.ai/static/media/logomaker.99905ae67e8a2e42f615.webp",
+    "static/media/soundful.webp": "/learn.ai/static/media/soundful.ed3942560941258a5542.webp",
+    "index.html": "/learn.ai/index.html",
+    "main.03a8007b.css.map": "/learn.ai/static/css/main.03a8007b.css.map",
+    "main.6e41975c.js.map": "/learn.ai/static/js/main.6e41975c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03a8007b.css",
+    "static/js/main.6e41975c.js"
+  ]
+}
