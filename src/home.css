@@ -1,0 +1,217 @@
+
+#sk{
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    background-image: url('ai2.jpg');
+}
+#nav1{
+    /* From https://css.glass */
+background: rgba(12, 11, 11, 0.49);
+
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(16.6px);
+-webkit-backdrop-filter: blur(6.6px);
+/* border: 1px solid rgba(12, 11, 11, 0.82); */
+}
+#text{
+    background: rgba(12, 11, 11, 0.29);
+margin-top: 200px;
+border-radius: 16px;
+font-weight: 100;
+text-transform: capitalize;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+/* border: 1px solid rgba(12, 11, 11, 0.82); */
+}
+
+.navbar-scrolled{
+    background-color: white;
+}
+#chatgpt{
+    
+    background: rgba(12, 11, 11, 0.64);
+margin: 80px;
+font-size: 100px;
+text-shadow: 0 0 10px #00b3ff,
+0 0 20px #00b3ff,
+0 0 40px #00b3ff,
+0 0 80px #00b3ff,
+0 0 120px #00b3ff,
+
+;
+
+font-weight: 100;
+text-transform: capitalize;
+box-shadow: 0 14px 60px rgba(0, 0, 0, 0.567);
+backdrop-filter: blur(15.1px);
+-webkit-backdrop-filter: blur(15.1px);
+}
+#chatgpt span{
+    text-transform: uppercase;
+    font-weight: normal;;
+    font-size: 40px;
+}
+#text h5{
+    margin-top: 120px;
+}
+
+.animated-btn {
+    margin-top: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+    animation: pulse 1s infinite;
+  }
+  
+  /* @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  } */
+  
+  .btn-success {
+
+    transition: 2s ease-in-out;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+    background-color: #28a77d;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    transform: scale(1.1);
+    background-color: #213988;
+    border-color: #3e1e7e;
+  }
+
+  .my-element {
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .up{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both ;
+  }
+  @keyframes up-down{
+    0%{
+      transform: translateY(20px);
+    }
+    100%{
+      transform: translateY(-20px);
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #hide1{
+     display: none;
+    }
+  }
+
+#maintext{
+  
+  -webkit-text-stroke: 0.5px #fff;
+  color: transparent;
+transition: 0.5s ;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#maintext:hover{
+  color: #fff;
+
+}
+
+#sk2{
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: url('ais.jpg');
+}
+
+
+#cards1{
+  padding: 20px;
+ 
+  
+  background: rgba(12, 11, 11, 0.49);
+/* background-color: #213988; */
+/* border-radius: 16px; */
+
+backdrop-filter: blur(16.6px);
+-webkit-backdrop-filter: blur(6.6px);
+
+}
+
+#cards4{
+  padding: 20px;
+ 
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 20px #9ecaed;
+  
+  background: rgba(12, 11, 11, 0.49);
+/* background-color: #213988; */
+/* border-radius: 16px; */
+
+backdrop-filter: blur(16.6px);
+-webkit-backdrop-filter: blur(6.6px);
+
+}
+
+#cards3{
+ 
+  
+  background: rgba(12, 11, 11, 0.49);
+/* background-color: #213988; */
+/* border-radius: 16px; */
+
+backdrop-filter: blur(16.6px);
+-webkit-backdrop-filter: blur(6.6px);
+
+}
+
+#cards3:hover{
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+
+
+}
+
+
+#lastbtn{
+  transition: 0.5s;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+#lastbtn:hover{
+  color: black;
+  background-color: #9ecaed;
+}
